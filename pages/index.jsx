@@ -5,7 +5,7 @@ import About from "../components/about";
 import Projects from "../components/projects";
 import Contact from "../components/contact";
 
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"], fallback: ["arial"] });
 
 export default function Home() {

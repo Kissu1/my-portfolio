@@ -6,7 +6,7 @@ import linkedInIcon from "../public/assets/LI-In-Bug-1.png";
 import instaIcon from "../public/assets/Instagram_Glyph_Gradient_1.png";
 import profileImg from "../public/images/social-img/big-pexels-woman-tea.png";
 
-import { Norican } from "@next/font/google";
+import { Norican } from "next/font/google";
 const norican = Norican({
   weight: "400",
   subsets: ["latin"],

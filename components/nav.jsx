@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Norican } from "@next/font/google";
+import { Norican } from "next/font/google";
 import { useState } from "react";
 const norican = Norican({
   weight: "400",
@@ -9,7 +9,7 @@ const norican = Norican({
   fallback: ["brush script m7"],
 });
 
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"], fallback: ["arial"] });
 
 export default function Nav({ logo }) {

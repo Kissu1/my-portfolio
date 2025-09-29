@@ -3,7 +3,7 @@ import Image from "next/image";
 import desktopAvatar from "../public/images/about-img/big-pexels-girl-smiling-square.png";
 import mobileAvatar from "../public/images/about-img/pexels-girl-smiling-circle-small.png";
 
-import { Norican } from "@next/font/google";
+import { Norican } from "next/font/google";
 const norican = Norican({
   weight: "400",
   subsets: ["latin"],
