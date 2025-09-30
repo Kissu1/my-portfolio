@@ -1,10 +1,10 @@
 export default function Projects({ title, date, info }) {
   return (
-    <div className="grid grid-flow-row justify-items-center my-8">
-      <div className="max-w-xxs md:max-w-xl lg:pl-6">
-        <h1>{title}</h1>
-        <h2 className="pt-2 pb-10">{date}</h2>
-        <p>{info}</p>
+    <div className="flex justify-center my-4">
+      <div className="text-center max-w-xxs md:max-w-xl">
+        <h1 className="mb-1">{title}</h1>
+        <h2 className="mb-1">{date}</h2>
+        <p className="mb-0">{info}</p>
       </div>
     </div>
   );

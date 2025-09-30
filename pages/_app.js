@@ -7,10 +7,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Example Portfolio Template</title>
+        <title>Rico Posas Portfolio</title>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="author" content="jlaskie" />
-        <meta name="description" content="A template for portfolio websites." />
+        <meta name="description" content="A personal portfolio." />
         <meta
           name="robots"
           content="noindex, nofollow, noarchive, nosnippet, noimageindex"

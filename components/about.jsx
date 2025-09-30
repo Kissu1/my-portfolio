@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import desktopAvatar from "../public/images/about-img/big-pexels-girl-smiling-square.png";
-import mobileAvatar from "../public/images/about-img/pexels-girl-smiling-circle-small.png";
+import desktopAvatar from "../public/images/about-img/pic.png";
+import mobileAvatar from "../public/images/about-img/mobile-pic.png";
 
 import { Norican } from "next/font/google";
 const norican = Norican({
@@ -39,7 +39,11 @@ export default function About({
 
         {/* only displays this circular avatar on mobile */}
         <div className="py-7 justify-self-center lg:hidden">
-          <Image src={mobileAvatar} alt="circular avatar of a woman smiling" />
+          <Image
+            src={mobileAvatar}
+            alt="circular avatar"
+            className="rounded-full border-4 border-aqua"
+          />
         </div>
 
         {/*Decrease font-size and increase padding and decrease max-width to change text placement*/}
@@ -68,8 +72,9 @@ export default function About({
       <div className="hidden lg:grid lg:my-10 lg:justify-self-start">
         <Image
           src={desktopAvatar}
-          alt="square avatar of a woman smiling"
+          alt="square avatar"
           priority
+          className="rounded-xl border-4 border-aqua"
         />
       </div>
     </div>

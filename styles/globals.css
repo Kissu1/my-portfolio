@@ -4,31 +4,8 @@
 
 @layer base {
     body {
-        @apply bg-gradient-to-r from-[#080344] via-[#0E0946] to-[#080344] text-neutral-200 text-opacity-[0.925] 
-    }
-
-    /* could have these at component level instead */
-    h1 {
-        @apply text-5xl
-    }
-    h2 {
-        @apply text-2xl
-    }
-    p {
-        @apply text-3xl
-    }
-    
-}
-
-@screen lg {
-    h1 {
-        @apply text-6xl
-    }
-    p {
-        @apply text-3xl
+        @apply bg-gradient-to-r from-[#080344] via-[#0E0946] to-[#080344] text-neutral-200 text-opacity-[0.925];
     }
 }
 
-
-
-
+/* Remove the global h1, h2, p styles and let components handle their own typography */
