@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import desktopAvatar from "../public/images/about-img/pic.png";
+import desktopAvatar from "../public/images/about-img/pic.PNG";
 import mobileAvatar from "../public/images/about-img/mobile-pic.png";
 
 import { Norican } from "next/font/google";
