@@ -1,5 +1,5 @@
 
-##Portfolio :sparkles:
+## Portfolio :sparkles:
 
 Personal portfolio using jlaskie/example-portfolio.
 
